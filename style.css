@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#searchBox {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#displayArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.country-card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
